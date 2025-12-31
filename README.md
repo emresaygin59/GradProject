@@ -12,6 +12,29 @@ The system achieves **99.8% accuracy** using a lightweight Artificial Neural Net
 
 ![System Architecture](assets/system_architecture.png)
 
+## 📊 Performance Analysis
+
+The model demonstrates robust learning capabilities with minimal overfitting, achieving **99.8% validation accuracy** after 50 epochs.
+
+### 1. Training Metrics
+The graphs below visualize the Loss and Accuracy progression. The convergence of training and validation lines indicates stable learning.
+
+![Training Graphs](assets/training_graphs.png)
+
+### 2. Confusion Matrix
+The model classifies 4 distinct gestures with high precision. Misclassification is negligible.
+
+* **LIGHT_ON:** Open Palm 🖐️
+* **LIGHT_OFF:** Closed Fist ✊
+* **FAN_ON:** 'V' Sign ✌️
+* **FAN_OFF:** Index Pointing ☝️
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
+## 🎥 Real-Time Demonstration
+The system captures hand landmarks in real-time using MediaPipe and classifies them instantly.
+
+![Real Time Demo](mediapipe_image.png) 
 
 ## 🚀 Key Features
 * **Contactless Control:** Hygienic and accessible interaction.
