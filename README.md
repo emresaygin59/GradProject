@@ -34,7 +34,7 @@ The model classifies 4 distinct gestures with high precision. Misclassification 
 ## 🎥 Real-Time Demonstration
 The system captures hand landmarks in real-time using MediaPipe and classifies them instantly.
 
-![Real Time Demo](mediapipe_image.png) 
+![Real Time Demo](assets/mediapipe_image.png) 
 
 ## 🚀 Key Features
 * **Contactless Control:** Hygienic and accessible interaction.
